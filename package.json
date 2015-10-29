@@ -1,0 +1,18 @@
+{
+  "name": "bad-movie-bot",
+  "version": "1.0.0",
+  "author": "Alex Meswarb <alex@meswarb.com>",
+  "description": "gives you a list of bad movies starting with a given character",
+  "main": "index.js",
+  "scripts": {
+    "bot": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^7.0.2",
+    "lodash": "^3.10.1",
+    "q": "^1.4.1",
+    "request": "^2.65.0",
+    "slack-client": "^1.4.1"
+  }
+}

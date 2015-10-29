@@ -1,0 +1,5 @@
+{
+    "token": "xoxb-YOUR-TOKEN-HERE",
+    "autoReconnect": true,
+    "autoMark": true
+}
