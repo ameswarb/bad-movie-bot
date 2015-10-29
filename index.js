@@ -17,7 +17,7 @@ bot.on('message', function(msg) {
            console.log('Error: Input is not alphanumeric');
            channel.send('Nice try, jerk.');
         } else {
-            var response = movies.get(letter);
+            var response = movies.get(letter.toLowerCase());
             if (response.length > 0) {
                 channel.send(response);
             } else {
